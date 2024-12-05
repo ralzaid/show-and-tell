@@ -20,7 +20,8 @@ const LineDrawing = () => {
         preserveAspectRatio="xMidYMid meet"
       >
         <motion.path
-          d="M300 50 L370 200 L520 200 L400 300 L450 450 L300 350 L150 450 L200 300 L80 200 L230 200 Z" // Replace this with the actual star path data
+          d="M300 50 L370 200 L520 200 L400 300 L450 450 L300 350 
+            L150 450 L200 300 L80 200 L230 200 Z" 
           stroke="black"
           fill="none"
           strokeWidth="2"
@@ -36,3 +37,6 @@ const LineDrawing = () => {
   );
 };
 export default LineDrawing;
+
+
+
